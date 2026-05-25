@@ -915,64 +915,383 @@ h4{font-family:var(--font-display);font-size:14px;font-weight:600;color:var(--ac
 
 <!-- 10. PROYECCIÓN CON PLAN -->
 <div class="slide" id="slide-proyeccion-plan">
-  <div class="slide-inner">
-    <div class="slide-label">Módulo 08</div>
-    <div class="slide-title">Proyección 2026 <span>con Plan de Acción</span></div>
-    <div class="slide-sub">Estado de Resultados mensual proyectado 2026 aplicando los 5 pilares del plan. Incluye depreciación de paneles solares ($25,000/mes) como gasto no efectivo.</div>
+  <div class="slide-header">
+    <h2><i class="fa-solid fa-chart-line header-icon"></i> 10. Proyección con Plan de Acción — EERR 2026</h2>
+    <p class="subtitle">Análisis del Estado de Resultados proyectado de enero a diciembre de 2026 con base en la implementación estratégica de optimización financiera.</p>
+  </div>
 
-    <div class="card mb-24" style="padding:0;overflow:hidden">
-      <div style="padding:12px 18px;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
-        <span style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent)">Estado de Resultados Mensual 2026 — Con Plan</span>
-        <span class="badge badge-green">Proyectado</span>
+  <div class="metrics-grid">
+    <div class="card kpi-card border-accent">
+      <div class="card-header-mini">
+        <span class="card-label">VENTAS TOTALES PROYECTADAS</span>
+        <i class="fa-solid fa-wallet text-accent"></i>
       </div>
-      <div style="overflow-x:auto">
-        <table class="fin-table" style="min-width:1200px">
-          <thead>
-            <tr>
-              <th style="min-width:180px">Concepto</th>
-              <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th>
-              <th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
-              <th style="background:rgba(0,200,255,.08)">TOTAL 2026</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="subtotal"><td>Ventas</td><td>$8,269,571</td><td>$8,269,571</td><td>$8,269,571</td><td>$2,977,045</td><td>$4,961,742</td><td>$4,961,742</td><td>$6,946,439</td><td>$7,938,788</td><td>$11,908,182</td><td>$11,908,182</td><td>$14,885,227</td><td>$7,938,788</td><td style="color:var(--accent)">$99,234,845</td></tr>
-            <tr><td>Costo de Venta</td><td>$4,344,724</td><td>$4,344,724</td><td>$4,344,724</td><td>$1,564,101</td><td>$2,606,834</td><td>$2,606,834</td><td>$3,649,568</td><td>$4,170,935</td><td>$6,256,402</td><td>$6,256,402</td><td>$7,820,503</td><td>$4,170,935</td><td>$52,136,686</td></tr>
-            <tr class="subtotal"><td>Utilidad Bruta</td><td>$3,924,847</td><td>$3,924,847</td><td>$3,924,847</td><td>$1,412,944</td><td>$2,354,908</td><td>$2,354,908</td><td>$3,296,871</td><td>$3,767,853</td><td>$5,651,780</td><td>$5,651,780</td><td>$7,064,724</td><td>$3,767,853</td><td>$47,098,162</td></tr>
-            <tr><td>Margen Bruto</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td><td>47.5%</td></tr>
-            <tr><td>Gastos de Ventas</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$351,979</td><td>$4,223,748</td></tr>
-            <tr><td>Gastos de Operación</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$1,572,577</td><td>$18,870,924</td></tr>
-            <tr><td>Gastos de Administración</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$405,007</td><td>$4,860,084</td></tr>
-            <tr class="subtotal"><td>SG&amp;A Total</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$2,329,563</td><td>$27,954,756</td></tr>
-            <tr class="subtotal"><td>EBITDA</td><td>$1,595,284</td><td>$1,595,284</td><td>$1,595,284</td><td style="color:var(--red)">($916,619)</td><td>$25,345</td><td>$25,345</td><td>$967,308</td><td>$1,438,290</td><td>$3,322,217</td><td>$3,322,217</td><td>$4,735,161</td><td>$1,438,290</td><td>$19,143,406</td></tr>
-            <tr><td>Dep. Paneles Solares <span class="badge badge-blue" style="font-size:8px">No Efectivo</span></td><td colspan="12" style="text-align:center;color:var(--accent);font-size:10px">$25,000/mes · $7,500,000 ÷ 25 años ÷ 12 meses</td><td>$300,000</td></tr>
-            <tr><td>Dep. Activos Existentes</td><td colspan="12" style="text-align:center;color:var(--muted);font-size:10px">$265,435/mes · $3,185,217 ÷ 12 meses</td><td>$3,185,217</td></tr>
-            <tr><td>Total Depreciaciones</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$290,435</td><td>$3,485,217</td></tr>
-            <tr class="subtotal"><td>Utilidad Operativa</td><td>$1,304,849</td><td>$1,304,849</td><td>$1,304,849</td><td style="color:var(--red)">($1,207,054)</td><td style="color:var(--red)">($265,090)</td><td style="color:var(--red)">($265,090)</td><td>$676,873</td><td>$1,147,855</td><td>$3,031,782</td><td>$3,031,782</td><td>$4,444,726</td><td>$1,147,855</td><td>$15,658,189</td></tr>
-            <tr><td>RIF (Intereses)</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$224,672</td><td>$2,696,061</td></tr>
-            <tr><td>ISR Provisional (CU 15%)</td><td>$372,131</td><td>$372,131</td><td>$372,131</td><td>$133,967</td><td>$223,278</td><td>$223,278</td><td>$312,590</td><td>$357,245</td><td>$535,868</td><td>$535,868</td><td>$669,835</td><td>$357,245</td><td>$4,465,567</td></tr>
-            <tr class="total positive"><td>Utilidad Neta</td><td>$708,046</td><td>$708,046</td><td>$708,046</td><td style="color:var(--red)">($1,565,693)</td><td style="color:var(--red)">($713,040)</td><td style="color:var(--red)">($713,040)</td><td>$139,611</td><td>$565,938</td><td>$2,271,242</td><td>$2,271,242</td><td>$3,550,219</td><td>$565,938</td><td style="color:var(--green)">$8,496,555</td></tr>
-            <tr><td>Margen Neto</td><td>8.6%</td><td>8.6%</td><td>8.6%</td><td style="color:var(--red)">-52.6%</td><td style="color:var(--red)">-14.4%</td><td style="color:var(--red)">-14.4%</td><td>2.0%</td><td>7.1%</td><td>19.1%</td><td>19.1%</td><td>23.9%</td><td>7.1%</td><td style="color:var(--green)">8.6%</td></tr>
-          </tbody>
-        </table>
-      </div>
+      <div class="card-value">$99,234,845</div>
+      <p class="card-footer-text">Facturación anual estimada 2026</p>
     </div>
 
-    <div class="card mb-24">
-      <h4 style="margin-bottom:16px"><i class="fa fa-chart-area" style="margin-right:8px;color:var(--green)"></i>Saldo en Bancos: Antes vs Después del Plan</h4>
-      <div class="chart-wrap" style="height:280px">
-        <canvas id="chart-comparativo"></canvas>
+    <div class="card kpi-card border-green">
+      <div class="card-header-mini">
+        <span class="card-label">EBITDA ANUAL</span>
+        <i class="fa-solid fa-money-bill-trend-up text-green"></i>
       </div>
+      <div class="card-value">$17,427,999</div>
+      <p class="card-footer-text text-green">Margen EBITDA: 17.6%</p>
     </div>
 
-    <div class="grid-3">
-      <div class="card kpi"><div class="kpi-label">Utilidad Neta Anual 2026</div><div class="kpi-value ok">$8.5M</div><div class="kpi-note">vs $3.9M en 2025 (+117%)</div></div>
-      <div class="card kpi"><div class="kpi-label">Margen Neto Anual</div><div class="kpi-value ok">8.6%</div><div class="kpi-note">vs 4.53% en 2025 · Mejora doble</div></div>
-      <div class="card kpi"><div class="kpi-label">Dep. Paneles (No Efectivo)</div><div class="kpi-value">$25,000/m</div><div class="kpi-note">$7.5M ÷ 25 años ÷ 12 = gasto virtual</div></div>
+    <div class="card kpi-card border-yellow">
+      <div class="card-header-mini">
+        <span class="card-label">UTILIDAD OPERATIVA</span>
+        <i class="fa-solid fa-gears text-yellow"></i>
+      </div>
+      <div class="card-value">$13,942,782</div>
+      <p class="card-footer-text text-yellow">Margen Operativo: 14.1%</p>
+    </div>
+
+    <div class="card kpi-card border-red">
+      <div class="card-header-mini">
+        <span class="card-label">UTILIDAD NETA FINAL</span>
+        <i class="fa-solid fa-scale-balanced text-red"></i>
+      </div>
+      <div class="card-value">$6,781,153</div>
+      <p class="card-footer-text text-red">Margen Neto Anual: 6.8%</p>
+    </div>
+  </div>
+
+  <div class="card table-card animate-fade-in" style="margin-top: 20px;">
+    <div class="card-header-mini">
+      <h3><i class="fa-solid fa-table table-icon"></i> Estado de Resultados Mensual Proyectado 2026 (Pesos Mexicanos)</h3>
+    </div>
+    <div class="table-responsive">
+      <table class="financial-table">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Ene</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Abr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Ago</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dic</th>
+            <th class="total-column">Total 2026</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row-highlight-primary">
+            <td class="font-bold">Ventas</td>
+            <td>8,269,570.39</td>
+            <td>8,269,570.39</td>
+            <td>8,269,570.39</td>
+            <td>2,977,045.34</td>
+            <td>4,961,742.23</td>
+            <td>4,961,742.23</td>
+            <td>6,946,439.12</td>
+            <td>7,938,787.57</td>
+            <td>11,908,181.36</td>
+            <td>11,908,181.36</td>
+            <td>14,885,226.70</td>
+            <td>7,938,787.57</td>
+            <td class="font-bold total-column">99,234,845</td>
+          </tr>
+          <tr>
+            <td>Costo de Venta</td>
+            <td>4,344,723.70</td>
+            <td>4,344,723.70</td>
+            <td>4,344,723.70</td>
+            <td>1,564,100.53</td>
+            <td>2,606,834.22</td>
+            <td>2,606,834.22</td>
+            <td>3,649,567.90</td>
+            <td>4,170,934.75</td>
+            <td>6,256,402.12</td>
+            <td>6,256,402.12</td>
+            <td>7,820,502.65</td>
+            <td>4,170,934.75</td>
+            <td class="total-column">52,136,684</td>
+          </tr>
+          <tr class="row-subtotal">
+            <td class="font-bold">Utilidad Bruta</td>
+            <td>3,924,847</td>
+            <td>3,924,847</td>
+            <td>3,924,847</td>
+            <td>1,412,945</td>
+            <td>2,354,908</td>
+            <td>2,354,908</td>
+            <td>3,296,871</td>
+            <td>3,767,853</td>
+            <td>5,651,779</td>
+            <td>5,651,779</td>
+            <td>7,064,724</td>
+            <td>3,767,853</td>
+            <td class="font-bold total-column">47,098,160</td>
+          </tr>
+          <tr class="row-percentage">
+            <td class="italic-text">Margen Bruto</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td>47.5%</td>
+            <td class="total-column font-bold">47.5%</td>
+          </tr>
+          <tr>
+            <td>Gastos de Ventas</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td>351,979</td>
+            <td class="total-column">4,223,748</td>
+          </tr>
+          <tr>
+            <td>Gastos de Operación</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td>1,535,527</td>
+            <td class="total-column">18,426,329</td>
+          </tr>
+          <tr>
+            <td>Gastos de Administración</td>
+            <td>1,685,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td>485,007</td>
+            <td class="total-column">7,020,084</td>
+          </tr>
+          <tr class="row-subtotal-light">
+            <td>SG&A's</td>
+            <td>3,572,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td>2,372,513</td>
+            <td class="total-column font-bold">29,670,161</td>
+          </tr>
+          <tr class="row-highlight-success">
+            <td class="font-bold">EBITDA</td>
+            <td>352,333</td>
+            <td>1,552,333</td>
+            <td>1,552,333</td>
+            <td>-959,569</td>
+            <td>-17,605</td>
+            <td>-17,605</td>
+            <td>924,358</td>
+            <td>1,395,339</td>
+            <td>3,279,266</td>
+            <td>3,279,266</td>
+            <td>4,692,211</td>
+            <td>1,395,339</td>
+            <td class="font-bold total-column">17,427,999</td>
+          </tr>
+          <tr class="row-percentage">
+            <td class="italic-text">Margen EBITDA</td>
+            <td>4.3%</td>
+            <td>18.8%</td>
+            <td>18.8%</td>
+            <td>-32.2%</td>
+            <td>-0.4%</td>
+            <td>-0.4%</td>
+            <td>13.3%</td>
+            <td>17.6%</td>
+            <td>27.5%</td>
+            <td>27.5%</td>
+            <td>31.5%</td>
+            <td>17.6%</td>
+            <td class="total-column font-bold">17.6%</td>
+          </tr>
+          <tr>
+            <td>Depreciaciones y Amortizaciones</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td>290,435</td>
+            <td class="total-column">3,485,217</td>
+          </tr>
+          <tr class="row-highlight-warning">
+            <td class="font-bold">Utilidad Operativa</td>
+            <td>61,899</td>
+            <td>1,261,899</td>
+            <td>1,261,899</td>
+            <td>-1,250,003</td>
+            <td>-308,040</td>
+            <td>-308,040</td>
+            <td>633,923</td>
+            <td>1,104,905</td>
+            <td>2,988,831</td>
+            <td>2,988,831</td>
+            <td>4,401,776</td>
+            <td>1,104,905</td>
+            <td class="font-bold total-column">13,942,782</td>
+          </tr>
+          <tr class="row-percentage">
+            <td class="italic-text">Margen Operativo</td>
+            <td>0.7%</td>
+            <td>15.3%</td>
+            <td>15.3%</td>
+            <td>-42.0%</td>
+            <td>-6.2%</td>
+            <td>-6.2%</td>
+            <td>9.1%</td>
+            <td>13.9%</td>
+            <td>25.1%</td>
+            <td>25.1%</td>
+            <td>29.6%</td>
+            <td>13.9%</td>
+            <td class="total-column font-bold">14.1%</td>
+          </tr>
+          <tr>
+            <td>RIF</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td>224,671.72</td>
+            <td class="total-column">2,696,061</td>
+          </tr>
+          <tr class="row-subtotal">
+            <td class="font-bold">EBT</td>
+            <td>-162,773</td>
+            <td>1,037,227</td>
+            <td>1,037,227</td>
+            <td>-1,474,675</td>
+            <td>-532,712</td>
+            <td>-532,712</td>
+            <td>409,251</td>
+            <td>880,233</td>
+            <td>2,764,159</td>
+            <td>2,764,159</td>
+            <td>4,177,104</td>
+            <td>880,233</td>
+            <td class="font-bold total-column">11,246,721</td>
+          </tr>
+          <tr class="row-percentage">
+            <td class="italic-text">Margen EBT</td>
+            <td>-2.0%</td>
+            <td>12.5%</td>
+            <td>12.5%</td>
+            <td>-49.5%</td>
+            <td>-10.7%</td>
+            <td>-10.7%</td>
+            <td>5.9%</td>
+            <td>11.1%</td>
+            <td>23.2%</td>
+            <td>23.2%</td>
+            <td>28.1%</td>
+            <td>11.1%</td>
+            <td class="total-column font-bold">11.3%</td>
+          </tr>
+          <tr>
+            <td>Impuestos</td>
+            <td>372,131</td>
+            <td>372,131</td>
+            <td>372,131</td>
+            <td>133,967</td>
+            <td>223,278</td>
+            <td>223,278</td>
+            <td>312,590</td>
+            <td>357,245</td>
+            <td>535,868</td>
+            <td>535,868</td>
+            <td>669,835</td>
+            <td>357,245</td>
+            <td class="total-column">4,465,568</td>
+          </tr>
+          <tr class="row-highlight-danger">
+            <td class="font-bold">Utilidad Neta</td>
+            <td>-534,904</td>
+            <td>665,096</td>
+            <td>665,096</td>
+            <td>-1,608,642</td>
+            <td>-755,990</td>
+            <td>-755,990</td>
+            <td>96,662</td>
+            <td>522,987</td>
+            <td>2,228,291</td>
+            <td>2,228,291</td>
+            <td>3,507,269</td>
+            <td>522,987</td>
+            <td class="font-bold total-column">6,781,153</td>
+          </tr>
+          <tr class="row-percentage">
+            <td class="italic-text">Margen Neto</td>
+            <td>-6.5%</td>
+            <td>8.0%</td>
+            <td>8.0%</td>
+            <td>-54.0%</td>
+            <td>-15.2%</td>
+            <td>-15.2%</td>
+            <td>1.4%</td>
+            <td>6.6%</td>
+            <td>18.7%</td>
+            <td>23.6%</td>
+            <td>23.6%</td>
+            <td>6.6%</td>
+            <td class="total-column font-bold">6.8%</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
-
 <!-- 11. TAKEAWAYS -->
 <div class="slide" id="slide-takeaways">
   <div class="slide-inner">
